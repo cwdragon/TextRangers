@@ -13,14 +13,14 @@ class Tile:
 
     def __init__(self, id, north, south, east, west, northEast, northWest, southEast, southWest, up, down, desc, x, y):
         self.id = id
-        self.surroundingTiles["northTile"] = north
-        self.surroundingTiles["southTile"] = south
-        self.surroundingTiles["eastTile"] = east
-        self.surroundingTiles["westTile"] = west
-        self.surroundingTiles["northEastTile"] = northEast
-        self.surroundingTiles["northWestTile"] = northWest
-        self.surroundingTiles["southEastTile"] = southEast
-        self.surroundingTiles["southWestTile"] = southWest
+        self.surroundingTiles["north"] = north
+        self.surroundingTiles["south"] = south
+        self.surroundingTiles["east"] = east
+        self.surroundingTiles["west"] = west
+        self.surroundingTiles["northEast"] = northEast
+        self.surroundingTiles["northWest"] = northWest
+        self.surroundingTiles["southEast"] = southEast
+        self.surroundingTiles["southWest"] = southWest
         self.surroundingTiles["up"] = up
         self.surroundingTiles["down"] = down
         self.desc = desc
