@@ -1,17 +1,27 @@
+import json
+import os
 class Region:
 	
 	id = None
 	tiles = list()
-	surroundingRegions = {"north" : None, "south" : None, "east" : None, "west" : None
+	surroundingRegions = {"north" : None, "south" : None, "east" : None, "west" : None,
 	"northEast" : None,	"northWest" : None,	"southEast" : None,	"southWest" : None}
-	
-	def __init__(self, tiles, north, south, east, west, northEast, northWest, southEast, southWest)
+
+	def __init__(self, tiles, north, south, east, west, northEast, northWest, southEast, southWest):
+		print "test"
 		self.tiles = tiles
-		self.regions["northRegion"] = north;
-		self.regions["southRegion"] = south;
-		self.regions["eastRegion"] = east;
-		self.regions["westRegion"] = west;
-		self.regions["northEastRegion"] = northEast;
-		self.regions["northWestRegion"] = northWest;
-		self.regions["southEastRegion"] = southEast;
-		self.regions["southWestRegion"] = southWest;
+		self.surroundingRegions["northRegion"] = north
+		self.surroundingRegions["southRegion"] = south
+		self.surroundingRegions["eastRegion"] = east
+		self.surroundingRegions["westRegion"] = west
+		self.surroundingRegions["northEastRegion"] = northEast
+		self.surroundingRegions["northWestRegion"] = northWest
+		self.surroundingRegions["southEastRegion"] = southEast
+		self.surroundingRegions["southWestRegion"] = southWest
+
+	def readTiles(self):
+		with open('../Regions/Region1.json') as data_file:
+    			data = json.load(data_file)
+   		print data
+test = Region(None, None, None,None,None,None,None,None,None)
+test.readTiles()
