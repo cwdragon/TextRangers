@@ -1,5 +1,6 @@
 import json
 import os
+from Tile import Tile
 class Region:
 	
 	id = None
@@ -25,3 +26,4 @@ class Region:
    		print data
 test = Region(None, None, None,None,None,None,None,None,None)
 test.readTiles()
+
