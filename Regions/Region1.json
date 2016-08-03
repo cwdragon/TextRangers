@@ -1,0 +1,92 @@
+{
+  "Center" : {
+    "north" : "North",
+    "south" : "South",
+    "east" : "East",
+    "west" : "West",
+    "southWest" : "SouthWest",
+    "southEast" :"SouthEast",
+    "northWest" :"NorthWest",
+    "northEast" : "NorthEast"
+  },
+  "North": {
+    "north" : "None",
+    "south" : "Center",
+    "east" : "NorthEast",
+    "west" : "NorthWest",
+    "southWest" : "West",
+    "southEast" :"East",
+    "northWest" :"None",
+    "northEast" : "None"
+  },
+  "South": {
+    "north" : "Center",
+    "south" : "None",
+    "east" : "SouthEast",
+    "west" : "SouthWest",
+    "southWest" : "None",
+    "southEast" :"None",
+    "northWest" :"West",
+    "northEast" : "East"
+  },
+  "East":{
+    "north" : "NorthEast",
+    "south" : "SouthEast",
+    "east" : "None",
+    "west" : "Center",
+    "southWest" : "South",
+    "southEast" :"None",
+    "northWest" :"North",
+    "northEast" : "None"
+  },
+  "West":{
+    "north" : "NorthWest",
+    "south" : "SouthWest",
+    "east" : "Center",
+    "west" : "None",
+    "southWest" : "None",
+    "southEast" :"South",
+    "northWest" :"None",
+    "northEast" : "North"
+  },
+  "NorthWest":{
+    "north" : "None",
+    "south" : "West",
+    "east" : "North",
+    "west" : "None",
+    "southWest" : "None",
+    "southEast" :"Center",
+    "northWest" :"None",
+    "northEast" : "None"
+  },
+  "SouthWest":{
+    "north" : "West",
+    "south" : "None",
+    "east" : "South",
+    "west" : "None",
+    "southWest" : "None",
+    "southEast" :"None",
+    "northWest" :"None",
+    "northEast" : "Center"
+  },
+  "SouthEast":{
+    "north" : "East",
+    "south" : "None",
+    "east" : "None",
+    "west" : "South",
+    "southWest" : "None",
+    "southEast" :"None",
+    "northWest" :"Center",
+    "northEast" : "None"
+  },
+  "NorthEast":{
+    "north" : "None",
+    "south" : "East",
+    "east" : "None",
+    "west" : "North",
+    "southWest" : "Center",
+    "southEast" :"None",
+    "northWest" :"None",
+    "northEast" : "None"
+  }
+}
