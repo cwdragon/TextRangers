@@ -30,3 +30,7 @@ class Player:
 
     def _init_():
         return
+
+    def JSONtoPlayer(self, data):
+        
+        return

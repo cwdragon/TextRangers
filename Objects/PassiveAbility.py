@@ -5,7 +5,7 @@ class PassiveAbility:
     affectedAttributes = list()
     percentageModifier = None
     raceRestrictions = None
-    classRestrictions = None
+    classRestrictions = list()
 
     def __init__(self, name, desc, affectedAttributes, percentageModifier, raceRestrictions, classRestrictions):
         self.name = name

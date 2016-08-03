@@ -1,5 +1,7 @@
 {
   "Center" : {
+    "x": 2,
+    "y": 2,
     "description":"The center Tile",
     "north" : "North",
     "south" : "South",
@@ -11,6 +13,8 @@
     "northEast" : "NorthEast"
   },
   "North": {
+    "x": 2,
+    "y": 3,
     "description":"The North Tile",
     "north" : "None",
     "south" : "Center",
@@ -23,6 +27,8 @@
   },
   "South": {
     "description":"The South Tile",
+    "x": 2,
+    "y": 1,
     "north" : "Center",
     "south" : "None",
     "east" : "SouthEast",
@@ -33,6 +39,8 @@
     "northEast" : "East"
   },
   "East":{
+    "x": 3,
+    "y": 2,
     "description":"The East Tile",
     "north" : "NorthEast",
     "south" : "SouthEast",
@@ -44,6 +52,8 @@
     "northEast" : "None"
   },
   "West":{
+    "x": 1,
+    "y": 2,
     "description":"The West Tile",
     "north" : "NorthWest",
     "south" : "SouthWest",
@@ -55,6 +65,8 @@
     "northEast" : "North"
   },
   "NorthWest":{
+    "x": 1,
+    "y": 3,
     "description":"The NorthWest Tile",
     "north" : "None",
     "south" : "West",
@@ -66,6 +78,8 @@
     "northEast" : "None"
   },
   "SouthWest":{
+    "x": 1,
+    "y": 1,
     "description":"The SouthWest Tile",
     "north" : "West",
     "south" : "None",
@@ -77,6 +91,8 @@
     "northEast" : "Center"
   },
   "SouthEast":{
+    "x": 3,
+    "y": 1,
     "description":"The SouthEast Tile",
     "north" : "East",
     "south" : "None",
@@ -88,6 +104,8 @@
     "northEast" : "None"
   },
   "NorthEast":{
+    "x": 3,
+    "y": 3,
     "description":"The NorthEast Tile",
     "north" : "None",
     "south" : "East",
