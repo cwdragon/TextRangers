@@ -1,0 +1,25 @@
+{
+	"Human" : {
+		"name" : "Human",
+		"desc" : "Humans are average in pretty much all respects,
+					allowing them to choose any class combinations they want",
+		"strength" : 10,
+		"dexterity" : 10,
+		"constitution" : 10,
+		"intelligence" : 10,
+		"wisdom" : 10,
+		"luck" : 10
+	},
+	
+	"Orc" : {
+		"name" : "Orc",
+		"desc" : "Orcs are stronger and Sturdier than most races,
+					as such they prefer up close and personal classes",
+		"strength" : 12,
+		"dexterity" : 10,
+		"constitution" : 12,
+		"intelligence" : 8,
+		"wisdom" : 8,
+		"luck" : 10
+	}	
+}

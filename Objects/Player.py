@@ -1,12 +1,14 @@
+from Race import Race
+from Class import Class
 class Player:
-    strength = None
-    intelligence = None
-    wisdom = None
-    dexterity = None
-    constitution = None
-    name = ""
-    inventory = list()
-    equipped = equipped = {"head": None,
+
+    name = None
+    race = None
+    gender = None
+	playerClass = None
+    stats = {"health" : None, "mana" : None, "armor" : None, "strength" : None, "dexterity" : None,
+             "constitution" : None, "intelligence" : None, "wisdom" : None, "luck" : None}
+    equipped = {"head": None,
                             "body": None,
                             "ringFingerLeft":None, 
                             "pinkyFingerLeft":None, 
@@ -22,6 +24,9 @@ class Player:
                             "arms":None,
                             "head":None,
                             "necklace": None}
+    inventory = list()
+    x = None
+    y = None
 
     def _init_():
         return

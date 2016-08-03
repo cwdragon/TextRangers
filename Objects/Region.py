@@ -5,7 +5,7 @@ class Region:
 	
 	id = None
 	tiles = list()
-	surroundingRegions = {"north" : None, "south" : None, "east" : None, "west" : None,
+	surroundingRegions = {"north" : None, "south" : None, "east" : None, "westRegiont" : None,
 	"northEast" : None,	"northWest" : None,	"southEast" : None,	"southWest" : None}
 
 	def __init__(self, tiles, north, south, east, west, northEast, northWest, southEast, southWest):
